@@ -1,6 +1,6 @@
 Battery Time
 ============
-A GNOME Shell extension for showing the remaining time until the battery is (dis)charged. Battery percentage is still shown in Quick Settings.
+Shows both the remaining time until the battery is (dis)charged and the remaining battery percentage. The battery percentage is also shown in Quick Settings.
 
 ![Preview](preview.png)
 

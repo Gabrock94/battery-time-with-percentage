@@ -1,6 +1,6 @@
 {
   "name": "Battery Time With Percentage",
-  "description": "Show both the remaining time until the battery is (dis)charged and the battery percenage. Battery percentage is still shown in Quick Settings.",
+  "description": "Shows both the remaining time until the battery is (dis)charged and the remaining battery percentage. The battery percentage is also shown in Quick Settings.",
   "uuid": "battery-time-with-percentage@gabrock94.github.com",
   "url": "https://github.com/gabrock94/battery-time-with-percentage",
   "shell-version": [
