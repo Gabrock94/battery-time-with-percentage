@@ -29,7 +29,12 @@ class BatteryTimeIndicator extends SystemStatus.Indicator {
         let hours   = Math.floor(seconds / 60 / 60);
         let minutes = Math.floor(seconds / 60 % 60);
         
-        this._percentageLabel.text = `${hours}\u2236${minutes.toString().padStart(2, "0")}`;
+        // Get percentage (round to integer for display)
+        let percentage = Math.round(upower.Percentage);
+
+        // Display: "85% (2:30)"
+        this._percentageLabel.text = `${percentage}% (${hours}:${minutes.toString().padStart(2, "0")})`;
+
     }
 });
 
