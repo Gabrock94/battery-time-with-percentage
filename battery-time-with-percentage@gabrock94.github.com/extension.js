@@ -33,10 +33,10 @@ class BatteryTimeIndicator extends SystemStatus.Indicator {
         let percentage = Math.round(upower.Percentage);
 
         // Display: "85% (2:30)"
-        if percentage < 100{
-            this._percentageLabel.text = `${percentage}% (${hours}:${minutes.toString().padStart(2, "0")})`;}
-        else{
-            this._percentageLabel.text = `${percentage}%`;}
+        if(percentage < 100){
+            this._percentageLabel.text = `${percentage}% (${hours}:${minutes.toString().padStart(2, "0")})`;
+        }else{
+            this._percentageLabel.text = `${percentage}%`;
         }
 
     }
